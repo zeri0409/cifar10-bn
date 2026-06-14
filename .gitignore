@@ -1,0 +1,69 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+.venv*/
+venv/
+env/
+conda-meta/
+
+# Local data
+codes/VGG_BatchNorm/data/
+
+# Experiment outputs and archives
+codes/VGG_BatchNorm/outputs_debug/
+codes/VGG_BatchNorm/outputs_quick/
+codes/VGG_BatchNorm/outputs_full/
+codes/VGG_BatchNorm/outputs_search/
+codes/VGG_BatchNorm/outputs_search_old/
+codes/VGG_BatchNorm/*.tar.gz
+*.tar.gz
+*.zip
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Logs
+*.log
+
+# LaTeX build artifacts and private report sources
+report/
+PROJECT2_REPORT_DRAFT.md
+PROJECT2_REPORT_TEMPLATE.md
+SERVER_RUN_GUIDE.md
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.synctex.gz
+*.toc
+*.xdv
+*.nav
+*.snm
+*.vrb
+*.pdf
+
+# Course requirement docs
+project_2_2026.pdf
+project_2_2026.lyx
+project_2_2026_1_6_translate_20260523233832.pdf
