@@ -67,3 +67,6 @@ SERVER_RUN_GUIDE.md
 project_2_2026.pdf
 project_2_2026.lyx
 project_2_2026_1_6_translate_20260523233832.pdf
+
+# Local figure assets not needed in code-only repo
+pic/
